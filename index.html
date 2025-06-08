@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anonymous Messages</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-wrapper">
+    <form id="messageForm" name="anonymous-message" method="POST" data-netlify="true">
+      <textarea name="message" placeholder="Write your anonymous message..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="content"></div>
+  <div id="loading">Loading more messages...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
