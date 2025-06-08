@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 1rem;
+  background: #f5f5f5;
+}
+
+.form-wrapper {
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+
+textarea {
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#loading {
+  text-align: center;
+  padding: 1rem;
+}
